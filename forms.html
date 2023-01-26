@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>forms</title>
+</head>
+<style>
+  body{background-color: #b3d4fc}
+  label{
+    color: #33c4d0;
+    text-align: left;
+    padding: 12px;
+    font-family: Chilanka;
+  }
+  input{
+    padding: 15px;
+background-color: #a5a9b0;
+  ;
+  }
+  h2 {
+    color: black;
+  }
+  button{
+    background-color: #33c4d0;
+  }
+</style>
+<body>
+<h2><b>student registration form</b></h2>
+<form action="iframe.html" method="get">
+  <label for="fname"> Full Name</label>
+  <input type="text"id="fname" placeholder="enter your name"><br>
+  <label for="mail"> email</label>
+  <input type="email" placeholder="current email"> <br>
+  <label for="pno"> phone number</label>
+  <input type="text" id="pno" placeholder="enter your phone number"> <br>
+  <label for="dob"> Date Of Birth</label>
+  <input type="date" id="dob"> <br>
+  <label for="male"> Male</label>
+  <input type="radio" id="male" name="gender"><br>
+  <label for="fmale"> female</label>
+  <input type="radio" id="fmale" name="gender"><br>
+  <label for="courses"> COURSES Taken</label>
+  <select name="course" id="courses">
+
+
+    <option value="javascript"> javascript</option>
+  <option value="python"> python</option>
+  <option value="html"> html</option>
+  <option value="cyber security"> cybersecurity</option>
+  <option value="ussd"> ussd</option>
+  <option value="laravel"> laravel</option>
+  <option value="oracle"> oracle</option>
+  <label for="pass">password</label>
+  </select><br>
+  <label for="image"> upload picture</label>
+  <input type="file" id="image"><br>
+
+  <input type="password" id="pass" placeholder="password"> <br>
+  <input type="submit" value="Register Here"><br>
+
+
+</form>
+<button type="button" onclick="alert('safari lab morning class')">Bonyeza</button>
+</body>
+</html>
